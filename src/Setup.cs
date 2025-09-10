@@ -1,5 +1,4 @@
 ﻿using ApexCharts;
-using BcdLib.Components;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Opx.Blazor.BsCore.Extras
@@ -33,8 +32,6 @@ namespace Opx.Blazor.BsCore.Extras
 
 		public BsCoreExtras AddBcdPullComponent()
 		{
-			_services.AddBcdLibPullComponent();
-
 			return this;
 		}
 	}

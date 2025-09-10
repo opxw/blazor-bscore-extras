@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <Authors>Noviyanto Wibowo</Authors>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -22,13 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BcdLib.PullComponent" Version="0.4.0" />
     <PackageReference Include="Blazor-ApexCharts" Version="6.0.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.8" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\blazor-bscore\src\Opx.Blazor.BsCore.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.9" />
   </ItemGroup>
 
   <ItemGroup>
